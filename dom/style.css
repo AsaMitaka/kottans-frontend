@@ -17,6 +17,8 @@
 .asideBtn {
     width: 200px;
     height: 50px;
+    border: 1px solid black;
+    background-color: gainsboro;
 }
 
 /* mainItems */
@@ -55,3 +57,16 @@
     word-break: break-all;
 }
 
+.mainSource {
+    border: 1px solid black;
+    width: 100%;
+    height: 150px;
+}
+
+
+
+/* clicked */
+
+.clicked {
+    background-color: white;
+}

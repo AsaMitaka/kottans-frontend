@@ -14,14 +14,16 @@ let arrOfDatas = [
         dataName: '1',
         description: '11111111111111111111111111111111111111111',
         img: '',
-        alt: ''
+        alt: '',
+        source: ''
     },
     {
         title: '2',
         dataName: '2',
         description: '222222222222222222222222222222222222222222',
         img: '',
-        alt: ''
+        alt: '',
+        source: ''
     },
     {
         title: '3',
@@ -30,14 +32,16 @@ let arrOfDatas = [
         3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
         3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333`,
         img: '',
-        alt: ''
+        alt: '',
+        source: ''
     },
     {
         title: '4',
         dataName: '4',
         description: '4444444444444444444444444444444444444444444',
         img: '',
-        alt: ''
+        alt: '',
+        source: ''
     }
 ];
 
@@ -55,28 +59,33 @@ function renderAsideItems(item) {
 
 let asideBtn = document.querySelectorAll('.asideBtn');
 asideBtn.forEach( el => {
+
     el.addEventListener('click', renderMain);
 });
 
+
 function renderMain(event) {
+    // використовує багато пам'яті
+    asideBtn.forEach(el => el.classList.remove('clicked'));
     if (!event) {
+        asideBtn[0].classList.add('clicked');
         main.innerHTML = `
             <div class='mainHeader'>${arrOfDatas[0].title}</div>
             <div class='mainContent'>
                 <div class='mainDescr'>${arrOfDatas[0].description}</div>
                 <img class='mainImg' src='${arrOfDatas[0].img}' alt='${arrOfDatas[0].alt}' />
             </div>
+            <div class='mainSource'>${arrOfDatas[0].source}</div>
         `
     }
 
-    console.log(event.target, event.target.dataset.attribute);
+    event.target.classList.add('clicked');
     let thatTarget = event.target.dataset.attribute;
     main.innerHTML = '';
     
     let mainItem = arrOfDatas.find(function({dataName}) {
         return dataName === thatTarget;
     });
-    console.log(mainItem);
 
     main.innerHTML = `
         <div class='mainHeader'>${mainItem.title}</div>
@@ -84,6 +93,7 @@ function renderMain(event) {
             <div class='mainDescr'>${mainItem.description}</div>
             <img class='mainImg' src='${mainItem.img}' alt='${mainItem.alt}' />
         </div>
+        <div class='mainSource'>${mainItem.source}</div>
     `;
 }
 renderMain();
