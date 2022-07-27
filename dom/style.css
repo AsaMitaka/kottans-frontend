@@ -1,0 +1,57 @@
+/* content */
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* asideItem */
+
+.asideBlock {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.asideBtn {
+    width: 200px;
+    height: 50px;
+}
+
+/* mainItems */
+
+.mainBlock {
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainHeader {
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.mainImg {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.mainDescr {
+    border: 1px solid black;
+    max-width: 200px;
+    word-break: break-all;
+}
+
