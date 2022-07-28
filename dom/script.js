@@ -148,7 +148,7 @@ let arrOfDatas = [
         source: `
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5CnpZV3q5BcESefcB3WJmz?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         `,
-        backgroundColor: ''
+        backgroundColor: 'black'
     }
 ];
 
@@ -158,9 +158,7 @@ arrOfDatas.forEach(item => {
 
 function renderAsideItems(item) {
     aside.innerHTML += `
-        <aside class='asideBlock' data-attribute='${item.dataName}'>
-            <button class='asideBtn' data-attribute='${item.dataName}'>${item.title}</button>
-        <aside/>
+        <button class='asideBtn' data-attribute='${item.dataName}'>${item.title}</button>
     `;
 }
 
@@ -221,3 +219,4 @@ function createOl(item) {
 
     return ol;
 }
+
