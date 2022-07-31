@@ -47,26 +47,60 @@ function shuffleArr(array) {
 // rendering one item
 function renderItem(item) {
     return `
-        <div class='cardItem' class='${item.style}' data-attribute='${item.id}'>
-            <img src='${item.backgroundImg}' data-attribute='${item.id}'/>
+        <div class='${item.style}' data-attribute='${item.id}'>
+            <img class='${item.style}__front' src='${item.backgroundImg}'/>
+            <img class='${item.style}__back' src='${item.img}'/>
         </div>
     `;
 }
 
+let previousClicked = undefined;
+let currentClicked = undefined;
+let flipped = 0;
+let lockBoard = false;
+
 // Clicked item change img
 function clickedItem(event) {
-    let attribute = event.target.dataset.attribute;
-    let object = findByAttr(attribute, shuffledArr);
+    if (this === previousClicked) return;
+    if (lockBoard) return;
+    if (!event.target.classList.contains('cardItem__front')) return; 
 
     event.target.parentElement.classList.add('flip');
-    event.target.src = object.img;
+
+    if (previousClicked === undefined) {
+        previousClicked = event.target.parentElement;
+    } else {
+        currentClicked = event.target.parentElement;
+        sameEvents(previousClicked, currentClicked);
+        previousClicked = undefined;
+    }
 }
 
-// Finding obj by attribute
-function findByAttr(attr, arr) {
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i]['id'] == attr) {
-            return arr[i];
-        }
+// checking if that items same, if same hiding, else removing flip class
+function sameEvents(previosEvent, currentEvent) {
+    lockBoard = true;
+    if (previosEvent.dataset.attribute === currentEvent.dataset.attribute) {
+        previosEvent.classList.add('hide');
+        currentEvent.classList.add('hide');
+        resetBoardItem();
+        flipped += 2;
+
+        if (flipped === shuffledArr.length) {
+            alert('YOU WIN!');
+            window.location.reload();
+        } 
+    } else {
+        setTimeout(() => {
+            previosEvent.classList.remove('flip');
+            currentEvent.classList.remove('flip');
+            resetBoardItem();
+        }, 1000);
     }
+}
+
+// Reseting items
+function resetBoardItem() {
+    previousClicked = undefined;
+    currentClicked = undefined;
+    lockBoard = false;
 }
