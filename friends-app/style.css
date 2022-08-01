@@ -6,8 +6,6 @@
 .container {
     width: 100%;
 
-    height: 600px;
-
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -16,46 +14,83 @@
 
 header {
     width: 100%;
-    height: 150px;
     margin-left: auto;
     margin-right: auto;
     background-color: green;
 }
 
 .mainBlock {
-    height: 400px;
     background-color: red;
 
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    display: flex;    
 }
 
-.col {
-    position: relative;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 5px;
-}
 
 .asideBlock {
-    position: absolute;
-    -ms-flex: 0 0 32%;
-    flex: 0 0 32%;
-    max-width: 32%;
-
-    background-color: yellow;
-    height: 300px;
+    background: yellow;
+    flex-basis: 33%;
+    margin: 5px;
 }
 
-  /* 1/3 от ширины контейнера */
-.articleBlock {
-    position: absolute;
-    -ms-flex: 0 0 66%;
-    flex: 0 0 66%;
-    max-width: 66%;
+.asideItem {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 
-    background-color: orange;
-    height: 300px;
+.asideBlock__items {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+
+/*mainContent*/
+.articleBlock {
+    background: orange;
+    flex-basis: 66%;
+    margin: 5px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, 160px);
+}
+
+.content__item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 160px;
+    height: 250px;
+    margin: 10px 20px;
+}
+
+.content__item-name {
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 5px;
+}
+
+.content__item-img {
+    justify-content: center;
+    align-self: center;
+    padding: 5px 0;
+}
+
+.content__item p {
+    height: 3em;
+    font-size: 12px;
+}
+
+.content__item-gender {
+    background-color: red;
+    width: 100%;
+}
+
+.content__item-country {
+    height: 2em;
+}
+
+footer {
+    background-color: purple;
+    width: 100%;
 }
