@@ -26,6 +26,41 @@
                 </div>
 
                 <div class="asideBlock__items">
+                    AGE
+                    10 - 100
+                </div>
+
+                <div class="asideBlock__items">
+                    <div>
+                        <input type="radio" id="male"
+                         name="contact" value="male">
+                        <label for="male">MALE</label>
+                    
+                        <input type="radio" id="female"
+                         name="contact" value="female">
+                        <label for="female">FEMALE</label>
+                    
+                        <input type="radio" id="all"
+                         name="contact" value="all" checked>
+                        <label for="all">All</label>
+                      </div>
+                </div>
+
+                <div class="asideBlock__items">
+                    <!-- FORM ADDEVENTLISTENER CHANGE, IF === '' || undefined -> renderAllItems
+                    SEARCH ITEM -->
+
+                    <label for="name">Search:</label>
+
+                    <input type="text" id="name" name="name" required
+                        minlength="1" maxlength="10" size="20">
+                </div>
+
+                <div class="asideBlock__items">
+                    <!-- UL > LI -> ALL COUNTRIES FROM ARR > OBJ -> RENDER -> -->
+                </div>
+
+                <div class="asideBlock__items">
                     <button class="reset" data-attr="reset">RESET</button>
                 </div>
             </aside>
