@@ -1,4 +1,5 @@
 const url = 'https://randomuser.me/api/?results=12';
+
 let aToZLast = document.querySelector('.sortedAtoZLast');
 let zToALast = document.querySelector('.sortedZtoALast');
 let atoZFirst = document.querySelector('.sortedAtoZFirst');
@@ -8,8 +9,11 @@ let reset = document.querySelector('.reset');
 let male = document.querySelector('#male');
 let woman = document.querySelector('#female');
 let all = document.querySelector('#all');
+let search = document.querySelector('#searchBar');
+let minNumber = document.querySelector('#minNumber');
+let maxNumber = document.querySelector('#maxNumber');
+
 let basicArr1 = [];
-// let basicArr2 = [];
 let resultArr = [];
 
 async function getResponse(url) {
@@ -70,6 +74,21 @@ function sortedZtoAFirst() {
     renderAllItemsToPage(resultArr);
 }
 
+[male, woman, all].forEach(el=> el.addEventListener('click', checked));
+function checked(event) {
+    switch (event.target.value) {
+        case 'male':
+            renderMale();
+            break;
+        case 'female':
+            renderFemale();
+            break;
+        case 'all':
+            renderAll();
+            break;
+    }
+}
+
 function renderMale() {
     resultArr = basicArr1.slice();
     resultArr = resultArr.filter(item=> item.gender === 'male');
@@ -89,44 +108,6 @@ function renderAll() {
     ages();
     renderAllItemsToPage(resultArr);
 }
-
-[male, woman, all].forEach(el=> el.addEventListener('click', checked));
-function checked(event) {
-    switch (event.target.value) {
-        case 'male':
-            renderMale();
-            break;
-        case 'female':
-            renderFemale();
-            break;
-        case 'all':
-            renderAll();
-            break;
-    }
-}
-
-
-function resetPage() {
-    minNumber.value = 10;
-    maxNumber.value = 100;
-    resultArr = basicArr1.slice();
-    // console.log(JSON.parse(JSON.stringify(basicArr2)));
-    renderAllItemsToPage(resultArr);
-}
-
-
-function renderAllItemsToPage(arr) {
-    content.innerHTML = '';
-    arr.forEach(el => {
-        content.innerHTML += renderItem(el);
-    });
-}
-
-getResponse(url);
-
-
-let minNumber = document.querySelector('#minNumber');
-let maxNumber = document.querySelector('#maxNumber');
 
 [minNumber, maxNumber].forEach(el => el.addEventListener('change', checkNumber));
 
@@ -159,11 +140,36 @@ function ages() {
     });
 }
 
-let search = document.querySelector('#searchBar');
 search.addEventListener('input', searchFunc);
+
 function searchFunc() {
-    let val = search.value;
+    let val = search.value.toLowerCase();
     if (val && val.length > 0) {
         console.log(val);
-    }    
+        content.innerHTML = '';
+        resultArr.forEach(item=> {
+            if(item.name.first.toLowerCase().includes(val) || item.name.last.toLowerCase().includes(val)) {
+                content.innerHTML += renderItem(item);
+            }
+        });
+    } else {
+        renderAllItemsToPage(resultArr);
+    }
 }
+
+function resetPage() {
+    minNumber.value = 10;
+    maxNumber.value = 100;
+    resultArr = basicArr1.slice();
+    // console.log(JSON.parse(JSON.stringify(basicArr2)));
+    renderAllItemsToPage(resultArr);
+}
+
+function renderAllItemsToPage(arr) {
+    content.innerHTML = '';
+    arr.forEach(el => {
+        content.innerHTML += renderItem(el);
+    });
+}
+
+getResponse(url);
