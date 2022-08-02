@@ -44,6 +44,19 @@ header {
     padding: 10px 0;
 }
 
+#minNumber, #maxNumber {
+    width: 20%;
+}
+
+#minNumber:focus, #maxNumber:focus {
+    background-color: lightblue;
+}
+
+#minNumber::-webkit-outer-spin-button, #maxNumber::-webkit-outer-spin-button ,
+#minNumber::-webkit-inner-spin-button, #maxNumber::-webkit-inner-spin-button  {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 /*mainContent*/
 .articleBlock {

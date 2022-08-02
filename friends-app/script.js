@@ -5,6 +5,9 @@ let atoZFirst = document.querySelector('.sortedAtoZFirst');
 let ztoAFirst = document.querySelector('.sortedZtoAFirst');
 let content = document.querySelector('.articleBlock');
 let reset = document.querySelector('.reset');
+let male = document.querySelector('#male');
+let woman = document.querySelector('#female');
+let all = document.querySelector('#all');
 let basicArr1 = [];
 // let basicArr2 = [];
 let resultArr = [];
@@ -40,6 +43,7 @@ function renderItem(item) {
         </div>
     `;
 }
+
 aToZLast.addEventListener('click', sortedAtoZLast);
 zToALast.addEventListener('click', sortedZtoALast);
 atoZFirst.addEventListener('click', sortedAtoZFirst);
@@ -66,7 +70,45 @@ function sortedZtoAFirst() {
     renderAllItemsToPage(resultArr);
 }
 
+function renderMale() {
+    resultArr = basicArr1.slice();
+    resultArr = resultArr.filter(item=> item.gender === 'male');
+    ages();
+    renderAllItemsToPage(resultArr);
+}
+
+function renderFemale() {
+    resultArr = basicArr1.slice();
+    resultArr = resultArr.filter(item=> item.gender === 'female');
+    ages();
+    renderAllItemsToPage(resultArr);
+}
+
+function renderAll() {
+    resultArr = basicArr1.slice();
+    ages();
+    renderAllItemsToPage(resultArr);
+}
+
+[male, woman, all].forEach(el=> el.addEventListener('click', checked));
+function checked(event) {
+    switch (event.target.value) {
+        case 'male':
+            renderMale();
+            break;
+        case 'female':
+            renderFemale();
+            break;
+        case 'all':
+            renderAll();
+            break;
+    }
+}
+
+
 function resetPage() {
+    minNumber.value = 10;
+    maxNumber.value = 100;
     resultArr = basicArr1.slice();
     // console.log(JSON.parse(JSON.stringify(basicArr2)));
     renderAllItemsToPage(resultArr);
@@ -80,6 +122,40 @@ function renderAllItemsToPage(arr) {
     });
 }
 
-
 getResponse(url);
 
+
+let minNumber = document.querySelector('#minNumber');
+let maxNumber = document.querySelector('#maxNumber');
+
+[minNumber, maxNumber].forEach(el => el.addEventListener('change', checkNumber));
+
+function checkNumber() {
+    if (minNumber.value < 10) {
+        minNumber.value = 10
+        return;
+    } 
+    
+    if (maxNumber.value > 100 && minNumber.value < 10) {
+        maxNumber.value = 100;
+        minNumber.value = 10;
+        return;
+    } 
+    
+    if (maxNumber.value > 100) {
+        maxNumber.value = 100;
+        return;
+    } 
+    
+    ages();
+    renderAllItemsToPage(resultArr);
+}
+
+function ages() {
+    resultArr = resultArr.filter(item => {
+        if (item.dob.age > minNumber.value && item.dob.age <= maxNumber.value) {
+            return item;
+        }
+    });
+    
+}
