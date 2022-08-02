@@ -157,5 +157,13 @@ function ages() {
             return item;
         }
     });
-    
+}
+
+let search = document.querySelector('#searchBar');
+search.addEventListener('input', searchFunc);
+function searchFunc() {
+    let val = search.value;
+    if (val && val.length > 0) {
+        console.log(val);
+    }    
 }
