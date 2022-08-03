@@ -100,12 +100,13 @@
   ![grid garden](https://github.com/AsaMitaka/kottans-frontend/blob/main/responsiveWebDesign/grid%20garden.png)
 </details>
 
+
 ## HTML & CSS Practice
 
 [Code](https://github.com/AsaMitaka/kottans-frontend/tree/main/hooliStylePopup)
 
-## Javascript Basics
 
+## Javascript Basics
 
 <details>
   <summary>coursera js</summary>
@@ -126,7 +127,6 @@
 
 </details>
 
-
 <details>
   <summary>FCC Functional Programming and Algorithm Scripting Challenges - full</summary>
 
@@ -138,24 +138,18 @@
 [Code](https://github.com/AsaMitaka/kottans-frontend/tree/main/dom)
 
 ## Building a Tiny JS World (pre-OOP) 
-..
 
 ## Object oriented JS 
 
-frogger...
-
 ## OOP exercise 
-..
 
 ## Offline Web Applications
-.. 
 
 ## Memory pair game 
 
 [Code](https://github.com/AsaMitaka/kottans-frontend/tree/main/memory-pair-game)
 
 ## Website Performance Optimization 
-..
 
 ## Friends App
 
