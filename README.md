@@ -1,18 +1,18 @@
 # kottans-frontend
 
-## General
+[## General](#General)
 - [x] Git Basics
 - [x] Linux Cli And Networking
 - [x] VSC Github Collaboration
 
-## Front-End Basics
+[## Front-End Basics](#front-end_basics)
 - [x] Intro to HTML & CSS
 - [x] Responsive Web Design
 - [x] HTML & CSS Practice
 - [x] JavaScript Basics
 - [x] Document Object Model 
 
-## Advanced Topics
+[## Advanced Topics](#advanced_topics)
 - [ ] Building a Tiny JS World (pre-OOP) 
 - [ ] Object oriented JS 
 - [ ] OOP exercise
@@ -65,7 +65,7 @@
   ![week4](https://github.com/AsaMitaka/kottans-frontend/blob/main/vscGithubCollaboration/week4.png)
 </details>
 
-<a name="Front-End Basics"></a> 
+<a name="front-end_basics"></a> 
 ## Intro To Html Css 
 
 <details>
@@ -139,7 +139,7 @@
 [Code](https://github.com/AsaMitaka/kottans-frontend/tree/main/dom)
 
 
-<a name="Advanced Topics"></a> 
+<a name="advanced_topics"></a> 
 ## Building a Tiny JS World (pre-OOP) 
 
 ## Object oriented JS 
