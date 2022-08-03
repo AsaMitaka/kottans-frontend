@@ -66,22 +66,22 @@
 </details>
 
 <a name="front-end_basics"></a> 
-## Intro To Html Css 
+## Intro To HTML CSS
 
 <details>
-  <summary>Html codeAcademy</summary>
+  <summary>HTML CodeAcademy</summary>
 
   ![html codeacademy](https://github.com/AsaMitaka/kottans-frontend/blob/main/introToHtmlCss/html%20codeacademy.png)
 </details>
 
 <details>
-  <summary>Css codeAcademy</summary>
+  <summary>CSS CodeAcademy</summary>
 
   ![css codeacademy](https://github.com/AsaMitaka/kottans-frontend/blob/main/introToHtmlCss/css%20codeacademy.png)
 </details>
 
 <details>
-  <summary>Html and css codeAcademy</summary>
+  <summary>HTML and CSS CodeAcademy</summary>
 
   ![html and css codeacademy](https://github.com/AsaMitaka/kottans-frontend/blob/main/introToHtmlCss/html%20and%20css.png)
 </details>
@@ -96,7 +96,7 @@
 </details>
 
 <details>
-  <summary>Grid garden</summary>
+  <summary>Grid Garden</summary>
 
   ![grid garden](https://github.com/AsaMitaka/kottans-frontend/blob/main/responsiveWebDesign/grid%20garden.png)
 </details>
@@ -110,7 +110,7 @@
 ## Javascript Basics
 
 <details>
-  <summary>Coursera js</summary>
+  <summary>Coursera JS</summary>
 
   ![coursera js](https://github.com/AsaMitaka/kottans-frontend/blob/main/javascriptBasics/coursera%20js.png)
 </details>
