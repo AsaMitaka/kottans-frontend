@@ -43,7 +43,7 @@
 > Introduction to Git and GitHub - week 3
 ![week3](https://github.com/AsaMitaka/kottans-frontend/blob/main/vscGithubCollaboration/week%203.png)
 
- Introduction to Git and GitHub - week 4
+> Introduction to Git and GitHub - week 4
 ![week4](https://github.com/AsaMitaka/kottans-frontend/blob/main/vscGithubCollaboration/week4.png)
 
 ## Intro To Html Css 
