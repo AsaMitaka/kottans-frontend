@@ -1,14 +1,36 @@
 # kottans-frontend
 
-## Git Basics - [x]
+## General
+[x] Git Basics
+[x] Linux Cli And Networking
+[x] VSC Github Collaboration
+
+## Front-End Basics
+[x] Intro to HTML & CSS
+[x] Responsive Web Design
+[x] HTML & CSS Practice
+[x] JavaScript Basics
+[x] Document Object Model 
+
+## Advanced Topics
+[] Building a Tiny JS World (pre-OOP) 
+[] Object oriented JS 
+[] OOP exercise
+[] Offline Web Applications 
+[x] Memory pair game
+[] Website Performance Optimization 
+[x] Friends App 
+
+
+## Git Basics
 ![Introduction Sequence](https://github.com/AsaMitaka/kottans-frontend/blob/main/Git_Basics/Introduction%20Sequence.png)
 ![Push & Pull](https://github.com/AsaMitaka/kottans-frontend/blob/main/Git_Basics/Push%20%26%20Pull.png)
 ![versionControlGIt](https://github.com/AsaMitaka/kottans-frontend/blob/main/Git_Basics/versionControlGIt.png)
 
-## Linux Cli And Networking - [x]
+## Linux Cli And Networking 
 ![LinuxCliAndNetworking](https://github.com/AsaMitaka/kottans-frontend/blob/main/LinuxCliAndNetworking/linux.png)
 
-## VSC Github Collaboration - [x]
+## VSC Github Collaboration 
 ![week3](https://github.com/AsaMitaka/kottans-frontend/blob/main/vscGithubCollaboration/week%203.png)
 ![week4](https://github.com/AsaMitaka/kottans-frontend/blob/main/vscGithubCollaboration/week4.png)
 
@@ -34,23 +56,23 @@
 ## Document Object Model - [x]
 [Code](https://github.com/AsaMitaka/kottans-frontend/tree/main/dom)
 
-## Building a Tiny JS World (pre-OOP) - [ ]
+## Building a Tiny JS World (pre-OOP) 
 ..
 
-## Object oriented JS - [ ]
+## Object oriented JS 
 
 frogger...
 
-## OOP exercise - [ ]
+## OOP exercise 
 ..
 
-## Offline Web Applications - [ ]
+## Offline Web Applications
 .. 
 
 ## Memory pair game - [x]
 [Code](https://github.com/AsaMitaka/kottans-frontend/tree/main/memory-pair-game)
 
-## Website Performance Optimization - [ ]
+## Website Performance Optimization 
 ..
 
 ## Friends App - [x]
