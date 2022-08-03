@@ -1,18 +1,18 @@
 # kottans-frontend
 
-[## General](#General)
+[General](#General)
 - [x] Git Basics
 - [x] Linux Cli And Networking
 - [x] VSC Github Collaboration
 
-[## Front-End Basics](#front-end_basics)
+[Front-End Basics](#front-end_basics)
 - [x] Intro to HTML & CSS
 - [x] Responsive Web Design
 - [x] HTML & CSS Practice
 - [x] JavaScript Basics
 - [x] Document Object Model 
 
-[## Advanced Topics](#advanced_topics)
+[Advanced Topics](#advanced_topics)
 - [ ] Building a Tiny JS World (pre-OOP) 
 - [ ] Object oriented JS 
 - [ ] OOP exercise
