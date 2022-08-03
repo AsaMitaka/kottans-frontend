@@ -23,8 +23,14 @@
 
 
 ## Git Basics
+
+> Introduction Sequence - full
 ![Introduction Sequence](https://github.com/AsaMitaka/kottans-frontend/blob/main/Git_Basics/Introduction%20Sequence.png)
+
+> Push & Pull - full
 ![Push & Pull](https://github.com/AsaMitaka/kottans-frontend/blob/main/Git_Basics/Push%20%26%20Pull.png)
+
+> Udacity version Control GIt
 ![versionControlGIt](https://github.com/AsaMitaka/kottans-frontend/blob/main/Git_Basics/versionControlGIt.png)
 
 ## Linux Cli And Networking 
@@ -34,7 +40,7 @@
 
 ## VSC Github Collaboration 
 
->  Introduction to Git and GitHub - week 3
+> Introduction to Git and GitHub - week 3
 ![week3](https://github.com/AsaMitaka/kottans-frontend/blob/main/vscGithubCollaboration/week%203.png)
 
  Introduction to Git and GitHub - week 4
@@ -66,16 +72,16 @@
 
 ## Javascript Basics
 
->coursera js 
+> coursera js 
 ![coursera js](https://github.com/AsaMitaka/kottans-frontend/blob/main/javascriptBasics/coursera%20js.png)
 
->FCC Basic and ES6
+> FCC Basic and ES6
 ![freeCodeCamp1](https://github.com/AsaMitaka/kottans-frontend/blob/main/javascriptBasics/freeCodeCamp1.png)
 
->FCC Basic Data Structure and Basic Algorithm Scripting
+> FCC Basic Data Structure and Basic Algorithm Scripting
 ![freeCodeCamp2](https://github.com/AsaMitaka/kottans-frontend/blob/main/javascriptBasics/freeCodeCamp2.png)
 
->FCC Functional Programming and Algorithm Scripting Challenges - full
+> FCC Functional Programming and Algorithm Scripting Challenges - full
 ![freeCodeCamp3](https://github.com/AsaMitaka/kottans-frontend/blob/main/javascriptBasics/freeCodeCamp3.png)
 
 ## Document Object Model 
