@@ -21,7 +21,7 @@
 - [ ] Website Performance Optimization 
 - [x] Friends App 
 
-#General
+<a name="General"></a> 
 ## Git Basics
 
 <details>
@@ -65,7 +65,7 @@
   ![week4](https://github.com/AsaMitaka/kottans-frontend/blob/main/vscGithubCollaboration/week4.png)
 </details>
 
-#Front-End Basics
+<a name="Front-End Basics"></a> 
 ## Intro To Html Css 
 
 <details>
@@ -138,7 +138,8 @@
 
 [Code](https://github.com/AsaMitaka/kottans-frontend/tree/main/dom)
 
-#Advanced Topics
+
+<a name="Advanced Topics"></a> 
 ## Building a Tiny JS World (pre-OOP) 
 
 ## Object oriented JS 
