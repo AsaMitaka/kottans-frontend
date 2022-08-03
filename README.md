@@ -69,19 +69,19 @@
 ## Intro To Html Css 
 
 <details>
-  <summary>html codeAcademy</summary>
+  <summary>Html codeAcademy</summary>
 
   ![html codeacademy](https://github.com/AsaMitaka/kottans-frontend/blob/main/introToHtmlCss/html%20codeacademy.png)
 </details>
 
 <details>
-  <summary>css codeAcademy</summary>
+  <summary>Css codeAcademy</summary>
 
   ![css codeacademy](https://github.com/AsaMitaka/kottans-frontend/blob/main/introToHtmlCss/css%20codeacademy.png)
 </details>
 
 <details>
-  <summary>html and css codeAcademy</summary>
+  <summary>Html and css codeAcademy</summary>
 
   ![html and css codeacademy](https://github.com/AsaMitaka/kottans-frontend/blob/main/introToHtmlCss/html%20and%20css.png)
 </details>
@@ -90,13 +90,13 @@
 ## Responsive Web Design 
 
 <details>
-  <summary>flexbox</summary>
+  <summary>Flexbox</summary>
 
   ![flexbox](https://github.com/AsaMitaka/kottans-frontend/blob/main/responsiveWebDesign/flexbox.png)
 </details>
 
 <details>
-  <summary>grid garden</summary>
+  <summary>Grid garden</summary>
 
   ![grid garden](https://github.com/AsaMitaka/kottans-frontend/blob/main/responsiveWebDesign/grid%20garden.png)
 </details>
@@ -110,7 +110,7 @@
 ## Javascript Basics
 
 <details>
-  <summary>coursera js</summary>
+  <summary>Coursera js</summary>
 
   ![coursera js](https://github.com/AsaMitaka/kottans-frontend/blob/main/javascriptBasics/coursera%20js.png)
 </details>
