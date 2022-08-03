@@ -28,47 +28,77 @@
   <summary>Introduction Sequence - full</summary>
 
   ![Introduction Sequence](https://github.com/AsaMitaka/kottans-frontend/blob/main/Git_Basics/Introduction%20Sequence.png)
-
 </details>
 
-> Push & Pull - full
-![Push & Pull](https://github.com/AsaMitaka/kottans-frontend/blob/main/Git_Basics/Push%20%26%20Pull.png)
+<details>
+  <summary>Push & Pull - full</summary>
 
-> Udacity version Control GIt
-![versionControlGIt](https://github.com/AsaMitaka/kottans-frontend/blob/main/Git_Basics/versionControlGIt.png)
+  ![Push & Pull](https://github.com/AsaMitaka/kottans-frontend/blob/main/Git_Basics/Push%20%26%20Pull.png)
+</details>
+
+<details>
+  <summary>Udacity version Control GIt</summary>
+
+  ![versionControlGIt](https://github.com/AsaMitaka/kottans-frontend/blob/main/Git_Basics/versionControlGIt.png)
+</details>
+
 
 ## Linux Cli And Networking 
 
-> Linux Survival 
-![LinuxCliAndNetworking](https://github.com/AsaMitaka/kottans-frontend/blob/main/LinuxCliAndNetworking/linux.png)
+<details>
+  <summary>Linux Survival</summary>
+
+  ![LinuxCliAndNetworking](https://github.com/AsaMitaka/kottans-frontend/blob/main/LinuxCliAndNetworking/linux.png)
+</details>
 
 ## VSC Github Collaboration 
 
-> Introduction to Git and GitHub - week 3
-![week3](https://github.com/AsaMitaka/kottans-frontend/blob/main/vscGithubCollaboration/week%203.png)
+<details>
+  <summary>Introduction to Git and GitHub - week 3</summary>
 
-> Introduction to Git and GitHub - week 4
-![week4](https://github.com/AsaMitaka/kottans-frontend/blob/main/vscGithubCollaboration/week4.png)
+  ![week3](https://github.com/AsaMitaka/kottans-frontend/blob/main/vscGithubCollaboration/week%203.png)
+</details>
+
+<details>
+  <summary>Introduction to Git and GitHub - week 4</summary>
+
+  ![week4](https://github.com/AsaMitaka/kottans-frontend/blob/main/vscGithubCollaboration/week4.png)
+</details>
 
 ## Intro To Html Css 
 
-> html codeAcademy
-![html codeacademy](https://github.com/AsaMitaka/kottans-frontend/blob/main/introToHtmlCss/html%20codeacademy.png)
+<details>
+  <summary>html codeAcademy</summary>
 
-> css codeAcademy
-![css codeacademy](https://github.com/AsaMitaka/kottans-frontend/blob/main/introToHtmlCss/css%20codeacademy.png)
+  ![html codeacademy](https://github.com/AsaMitaka/kottans-frontend/blob/main/introToHtmlCss/html%20codeacademy.png)
+</details>
 
-> html and css codeAcademy
-![html and css codeacademy](https://github.com/AsaMitaka/kottans-frontend/blob/main/introToHtmlCss/html%20and%20css.png)
+<details>
+  <summary>css codeAcademy</summary>
+
+  ![css codeacademy](https://github.com/AsaMitaka/kottans-frontend/blob/main/introToHtmlCss/css%20codeacademy.png)
+</details>
+
+<details>
+  <summary>html and css codeAcademy</summary>
+
+  ![html and css codeacademy](https://github.com/AsaMitaka/kottans-frontend/blob/main/introToHtmlCss/html%20and%20css.png)
+</details>
 
 
 ## Responsive Web Design 
 
-> flexbox 
-![flexbox](https://github.com/AsaMitaka/kottans-frontend/blob/main/responsiveWebDesign/flexbox.png)
+<details>
+  <summary>flexbox</summary>
 
-> grid garden 
-![grid garden](https://github.com/AsaMitaka/kottans-frontend/blob/main/responsiveWebDesign/grid%20garden.png)
+  ![flexbox](https://github.com/AsaMitaka/kottans-frontend/blob/main/responsiveWebDesign/flexbox.png)
+</details>
+
+<details>
+  <summary>grid garden</summary>
+
+  ![grid garden](https://github.com/AsaMitaka/kottans-frontend/blob/main/responsiveWebDesign/grid%20garden.png)
+</details>
 
 ## HTML & CSS Practice
 
@@ -76,17 +106,32 @@
 
 ## Javascript Basics
 
-> coursera js 
-![coursera js](https://github.com/AsaMitaka/kottans-frontend/blob/main/javascriptBasics/coursera%20js.png)
 
-> FCC Basic and ES6
-![freeCodeCamp1](https://github.com/AsaMitaka/kottans-frontend/blob/main/javascriptBasics/freeCodeCamp1.png)
+<details>
+  <summary>coursera js</summary>
 
-> FCC Basic Data Structure and Basic Algorithm Scripting
-![freeCodeCamp2](https://github.com/AsaMitaka/kottans-frontend/blob/main/javascriptBasics/freeCodeCamp2.png)
+  ![coursera js](https://github.com/AsaMitaka/kottans-frontend/blob/main/javascriptBasics/coursera%20js.png)
+</details>
 
-> FCC Functional Programming and Algorithm Scripting Challenges - full
-![freeCodeCamp3](https://github.com/AsaMitaka/kottans-frontend/blob/main/javascriptBasics/freeCodeCamp3.png)
+<details>
+  <summary>FCC Basic and ES6</summary>
+
+  ![freeCodeCamp1](https://github.com/AsaMitaka/kottans-frontend/blob/main/javascriptBasics/freeCodeCamp1.png)
+</details>
+
+<details>
+  <summary>FCC Basic Data Structure and Basic Algorithm Scripting</summary>
+
+  ![freeCodeCamp2](https://github.com/AsaMitaka/kottans-frontend/blob/main/javascriptBasics/freeCodeCamp2.png)
+
+</details>
+
+
+<details>
+  <summary>FCC Functional Programming and Algorithm Scripting Challenges - full</summary>
+
+  ![freeCodeCamp3](https://github.com/AsaMitaka/kottans-frontend/blob/main/javascriptBasics/freeCodeCamp3.png)
+</details>
 
 ## Document Object Model 
 
