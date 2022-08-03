@@ -1,25 +1,25 @@
 # kottans-frontend
 
 ## General
-[x] Git Basics
-[x] Linux Cli And Networking
-[x] VSC Github Collaboration
+- [x] Git Basics
+- [x] Linux Cli And Networking
+- [x] VSC Github Collaboration
 
 ## Front-End Basics
-[x] Intro to HTML & CSS
-[x] Responsive Web Design
-[x] HTML & CSS Practice
-[x] JavaScript Basics
-[x] Document Object Model 
+- [x] Intro to HTML & CSS
+- [x] Responsive Web Design
+- [x] HTML & CSS Practice
+- [x] JavaScript Basics
+- [x] Document Object Model 
 
 ## Advanced Topics
-[] Building a Tiny JS World (pre-OOP) 
-[] Object oriented JS 
-[] OOP exercise
-[] Offline Web Applications 
-[x] Memory pair game
-[] Website Performance Optimization 
-[x] Friends App 
+- [] Building a Tiny JS World (pre-OOP) 
+- [] Object oriented JS 
+- [] OOP exercise
+- [] Offline Web Applications 
+- [x] Memory pair game
+- [] Website Performance Optimization 
+- [x] Friends App 
 
 
 ## Git Basics
