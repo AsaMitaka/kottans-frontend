@@ -144,6 +144,12 @@
 
 ## Object oriented JS 
 
+<details>
+  <summary>codeWars7kyu</summary>
+
+  ![codeWars7kyu](https://github.com/AsaMitaka/kottans-frontend/blob/main/object-OrientedJavaScript/codeWars7kyu.png)
+</details>
+
 ## OOP exercise 
 
 ## Offline Web Applications
