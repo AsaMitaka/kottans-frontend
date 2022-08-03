@@ -24,8 +24,12 @@
 
 ## Git Basics
 
-> Introduction Sequence - full
-![Introduction Sequence](https://github.com/AsaMitaka/kottans-frontend/blob/main/Git_Basics/Introduction%20Sequence.png)
+<details>
+  <summary>Introduction Sequence - full</summary>
+
+  ![Introduction Sequence](https://github.com/AsaMitaka/kottans-frontend/blob/main/Git_Basics/Introduction%20Sequence.png)
+
+</details>
 
 > Push & Pull - full
 ![Push & Pull](https://github.com/AsaMitaka/kottans-frontend/blob/main/Git_Basics/Push%20%26%20Pull.png)
