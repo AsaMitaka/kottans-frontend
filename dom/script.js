@@ -23,7 +23,8 @@ let arrOfDatas = [
         source: `
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4Uv86qWpGTxf7fU7lG5X6F?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         `,
-        backgroundColor: '#ae6e1f'
+        // backgroundColor: '#ae6e1f'
+        backgroundColor: `linear-gradient(180deg, rgba(121,68,3,1) 0%, rgba(174,110,31,1) 37%, rgba(246,136,0,1) 100%)`
     },
     {
         title: 'Late Registration',
@@ -38,7 +39,8 @@ let arrOfDatas = [
         source: `
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5ll74bqtkcXlKE7wwkMq4g?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         `,
-        backgroundColor: '#633119'
+        // backgroundColor: '#633119'
+        backgroundColor: `linear-gradient(180deg, rgba(62,31,16,1) 0%, rgba(99,49,25,1) 37%, rgba(124,60,29,1) 100%)`
     },
     {
         title: 'Graduation',
@@ -52,7 +54,8 @@ let arrOfDatas = [
         source: `
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4SZko61aMnmgvNhfhgTuD3?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         `,
-        backgroundColor: '#86088f'
+        // backgroundColor: '#86088f'
+        backgroundColor: `linear-gradient(180deg, rgba(82,16,87,1) 0%, rgba(134,8,143,1) 37%, rgba(209,23,222,1) 100%)`
     },
     {
         title: '808s & Heartbreak',
@@ -66,7 +69,8 @@ let arrOfDatas = [
         source: `
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3WFTGIO6E3Xh4paEOBY9OU?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         `,
-        backgroundColor: '#b4b1cc'
+        // backgroundColor: '#b4b1cc'
+        backgroundColor: `linear-gradient(180deg, rgba(140,138,154,1) 0%, rgba(180,177,204,1) 37%, rgba(197,194,217,1) 100%)`
     },
     {
         title: 'My Beautiful Dark Twisted Fantasy',
@@ -80,7 +84,8 @@ let arrOfDatas = [
         source: `
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/20r762YmB5HeofjMCiPMLv?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         `,
-        backgroundColor: '#f0273e'
+        // backgroundColor: '#f0273e'
+        backgroundColor: `linear-gradient(180deg, rgba(255,0,29,1) 0%, rgba(240,39,62,1) 37%, rgba(198,37,55,1) 100%)`
     },
     {
         title: 'Yeezus',
@@ -93,7 +98,8 @@ let arrOfDatas = [
         source: `
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7D2NdGvBHIavgLhmcwhluK?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         `,
-        backgroundColor: '#edf9e6'
+        // backgroundColor: '#edf9e6'
+        backgroundColor: `linear-gradient(180deg, rgba(249,252,247,1) 0%, rgba(237,249,230,1) 37%, rgba(220,230,214,1) 100%)`
     },
     {
         title: 'The Life of Pablo',
@@ -107,7 +113,8 @@ let arrOfDatas = [
         source: `
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7gsWAHLeT0w7es6FofOXk1?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         `,
-        backgroundColor: '#eb7745'
+        // backgroundColor: '#eb7745'
+        backgroundColor: `linear-gradient(180deg, rgba(244,147,105,1) 0%, rgba(235,119,69,1) 37%, rgba(153,84,54,1) 100%)`
     },
     {
         title: 'Ye',
@@ -120,7 +127,8 @@ let arrOfDatas = [
         source: `
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2Ek1q2haOnxVqhvVKqMvJe?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         `,
-        backgroundColor: '#433e73'
+        // backgroundColor: '#433e73'
+        backgroundColor: `linear-gradient(180deg, rgba(170,164,227,1) 0%, rgba(67,62,115,1) 37%, rgba(28,19,134,1) 100%)`
     },
     {
         title: 'Jesus Is King',
@@ -133,7 +141,8 @@ let arrOfDatas = [
         source: `
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0FgZKfoU2Br5sHOfvZKTI9?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         `,
-        backgroundColor: '#2f1ee2'
+        // backgroundColor: '#2f1ee2'
+        backgroundColor: `linear-gradient(180deg, rgba(148,140,231,1) 0%, rgba(47,30,226,1) 37%, rgba(26,20,85,1) 100%)`
     },
     {
         title: 'Donda',
@@ -148,7 +157,8 @@ let arrOfDatas = [
         source: `
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5CnpZV3q5BcESefcB3WJmz?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         `,
-        backgroundColor: 'black'
+        // backgroundColor: 'black'
+        backgroundColor: `linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 37%, rgba(0,0,0,1) 100%)`
     }
 ];
 
@@ -193,7 +203,7 @@ renderMain();
 
 
 function addToMain(item) {
-    content.style.backgroundColor = `${item.backgroundColor}`;
+    content.style.backgroundImage  = `${item.backgroundColor}`;
 
     main.innerHTML = `
         <div class='mainHeader'>${item.title}</div>
