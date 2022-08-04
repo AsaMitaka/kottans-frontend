@@ -146,6 +146,7 @@
 ### Frogger
 [Code](https://github.com/AsaMitaka/frontend-nanodegree-arcade-game/blob/master/js/app.js)
 
+
 <details>
   <summary>codeWars7kyu</summary>
 
@@ -160,8 +161,10 @@
 
 [Code](https://github.com/AsaMitaka/kottans-frontend/tree/main/memory-pair-game)
 [Demo](https://asamitaka.github.io/kottans-frontend/memory-pair-game)
+
 ## Website Performance Optimization 
 
 ## Friends App
 
 [Code](https://github.com/AsaMitaka/kottans-frontend/tree/main/friends-app)
+[Demo](https://asamitaka.github.io/kottans-frontend/friends-app)
