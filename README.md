@@ -105,7 +105,7 @@
 ## HTML & CSS Practice
 
 [Code](https://github.com/AsaMitaka/kottans-frontend/tree/main/hooliStylePopup)
-
+[Demo](https://asamitaka.github.io/kottans-frontend/hooliStylePopup)
 
 ## Javascript Basics
 
@@ -137,7 +137,7 @@
 ## Document Object Model 
 
 [Code](https://github.com/AsaMitaka/kottans-frontend/tree/main/dom)
-
+[Demo](https://asamitaka.github.io/kottans-frontend/dom)
 
 <a name="advanced_topics"></a> 
 ## Building a Tiny JS World (pre-OOP) 
@@ -159,7 +159,7 @@
 ## Memory pair game 
 
 [Code](https://github.com/AsaMitaka/kottans-frontend/tree/main/memory-pair-game)
-
+[Demo](https://asamitaka.github.io/kottans-frontend/memory-pair-game)
 ## Website Performance Optimization 
 
 ## Friends App
