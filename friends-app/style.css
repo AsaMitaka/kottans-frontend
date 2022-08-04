@@ -13,6 +13,7 @@
     background-color: #e4e4e4;
 }
 
+/* Header */
 header {
     width: 100%;
     margin-left: auto;
@@ -29,7 +30,7 @@ header a {
     display: flex;    
 }
 
-
+/* Aside block */
 .asideBlock {
     background: #eeebeb;
     flex-basis: 33%;
@@ -111,7 +112,6 @@ header a {
 }
 
 .content__item-gender {
-    /* background-color: red; */
     border-top: 1px solid black;
     width: 100%;
     text-align: center;
@@ -121,6 +121,7 @@ header a {
     height: 2em;
 }
 
+/* Footer */
 footer {
     background-color: rgb(197, 186, 197);
     width: 100%;
@@ -131,4 +132,26 @@ footer {
 footer a {
     text-decoration: none;
     color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+    .asideBlock {
+        position: fixed;
+        top: 15px;
+        left: 0;
+        width: 200px;
+    }
+    .articleBlock {
+        margin-left: 190px;
+        /* margin-right: -20px; */
+    }
+
+    body {
+        background-color: #e4e4e4;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
 }
