@@ -14,7 +14,7 @@
 
 [Advanced Topics](#advanced_topics)
 - [ ] Building a Tiny JS World (pre-OOP) 
-- [ ] Object oriented JS 
+- [x] Object oriented JS 
 - [ ] OOP exercise
 - [ ] Offline Web Applications 
 - [x] Memory pair game
@@ -143,6 +143,8 @@
 ## Building a Tiny JS World (pre-OOP) 
 
 ## Object oriented JS 
+### Frogger
+[Code](https://github.com/AsaMitaka/frontend-nanodegree-arcade-game/blob/master/js/app.js)
 
 <details>
   <summary>codeWars7kyu</summary>
