@@ -13,9 +13,9 @@
 - [x] Document Object Model 
 
 [Advanced Topics](#advanced_topics)
-- [ ] Building a Tiny JS World (pre-OOP) 
+- [x] Building a Tiny JS World (pre-OOP) 
 - [x] Object oriented JS 
-- [ ] OOP exercise
+- [x] OOP exercise
 - [ ] Offline Web Applications 
 - [x] Memory pair game
 - [ ] Website Performance Optimization 
@@ -141,6 +141,8 @@
 
 <a name="advanced_topics"></a> 
 ## Building a Tiny JS World (pre-OOP) 
+[Code](https://github.com/AsaMitaka/a-tiny-JS-world/blob/master/index.js)
+[Demo](asamitaka.github.io/a-tiny-JS-world/)
 
 ## Object oriented JS 
 ### Frogger
@@ -154,6 +156,8 @@
 </details>
 
 ## OOP exercise 
+[Code](https://github.com/AsaMitaka/a-tiny-JS-world/blob/master/indexClass.js)
+[Demo](asamitaka.github.io/a-tiny-JS-world/index2.html)
 
 ## Offline Web Applications
 
