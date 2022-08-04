@@ -145,7 +145,7 @@
 ## Object oriented JS 
 ### Frogger
 [Code](https://github.com/AsaMitaka/frontend-nanodegree-arcade-game/blob/master/js/app.js)
-
+[Demo](https://asamitaka.github.io/frontend-nanodegree-arcade-game)
 
 <details>
   <summary>codeWars7kyu</summary>
