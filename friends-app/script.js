@@ -39,7 +39,9 @@ function renderItem(item) {
         <div class='content__item'>
             <img class='content__item-img' src='${item.picture.medium}'>
             <div class='content__item-name'>${item.name.title} ${item.name.first} ${item.name.last}</div>
-            <p class='content__item-email'>${item.email}</p>
+            <p class='content__item-email'>
+                <a href="mailto:  ${item.email}"   target="_blank"> ${item.email}</a>
+            </p>
             <p>Age: ${item.dob.age}</p>
             <a href='${item.phone}'>${item.phone}</a>
             <p class='content__item-country'>${item.location.country}, ${item.location.city}</p>
