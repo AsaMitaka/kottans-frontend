@@ -142,7 +142,7 @@
 <a name="advanced_topics"></a> 
 ## Building a Tiny JS World (pre-OOP) 
 [Code](https://github.com/AsaMitaka/a-tiny-JS-world/blob/master/index.js)
-[Demo](asamitaka.github.io/a-tiny-JS-world/)
+[Demo](https://asamitaka.github.io/a-tiny-JS-world/)
 
 ## Object oriented JS 
 ### Frogger
@@ -157,7 +157,7 @@
 
 ## OOP exercise 
 [Code](https://github.com/AsaMitaka/a-tiny-JS-world/blob/master/indexClass.js)
-[Demo](asamitaka.github.io/a-tiny-JS-world/index2.html)
+[Demo](https://asamitaka.github.io/a-tiny-JS-world/index2.html)
 
 ## Offline Web Applications
 
