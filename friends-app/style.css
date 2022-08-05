@@ -73,6 +73,7 @@ header a {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, 175px);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 .content__item {
