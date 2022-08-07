@@ -16,7 +16,6 @@
 - [x] Building a Tiny JS World (pre-OOP) 
 - [x] Object oriented JS 
 - [x] OOP exercise
-- [ ] Offline Web Applications 
 - [x] Memory pair game
 - [ ] Website Performance Optimization 
 - [x] Friends App 
