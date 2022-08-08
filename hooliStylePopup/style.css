@@ -169,6 +169,12 @@ input[type='checkbox']:focus + label {
     text-decoration: underline;
 }
 
+@media only screen and (max-width: 900px) {
+    .popup {
+        right: 1em;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .popup {
         right: 1em;
