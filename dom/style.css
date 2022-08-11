@@ -87,6 +87,7 @@ header {
 
 .mainDescrOl {
     margin: 0 25px;
+    padding-left: 20px;
 }
 
 .mainDescrLi {
@@ -159,13 +160,13 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 0 80px;
+        /* padding: 0 80px; */
         align-items: center;
     }
 
     .mainDescr {
         border: 1px solid black;
-        max-width: 300px;
+        min-width: 250px;
         word-break: break-all;
         margin: 20px 0;
         padding: 10px;
