@@ -80,12 +80,12 @@ function clickedItem(event) {
         previousClicked = parentElement;
     } else {
         currentClicked = parentElement;
-        sameEvents(previousClicked, currentClicked);
+        sameItems(previousClicked, currentClicked);
         previousClicked = undefined;
     }
 }
 
-function sameEvents(previosEvent, currentEvent) {
+function sameItems(previosEvent, currentEvent) {
     lockBoard = true;
     if (previosEvent.dataset.attribute === currentEvent.dataset.attribute) {
         previosEvent.classList.add('hide');
