@@ -40,8 +40,7 @@ let cardsList = [
     },
 ];
 
-let shuffledCardList = shuffleArr([...cardsList, ...cardsList]);
-shuffledCardList.map((el) => content.innerHTML += renderItem(el));
+let shuffledCardList = shuffleArr([...cardsList, ...cardsList]).map((el) => content.innerHTML += renderItem(el));
 
 let cardItems = document.querySelectorAll('.cardItem');
 cardItems.forEach(el => el.addEventListener('click', clickItem));
