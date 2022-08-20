@@ -5,7 +5,6 @@ const content = document.querySelector('.articleBlock');
 let friendsCopy = [];
 let friends = [];
 let isSearch = false;
-let isAge = false;
 
 async function getResponse(url) {
     let response;
@@ -154,26 +153,26 @@ function checkedGender(event) {
 function renderMale() {
     friends = friendsCopy.slice();
     friends = friends.filter(item=> item.gender === 'male');
-    ages();
+    findByAge();
     renderAllItemsToPage(friends);
 }
 
 function renderFemale() {
     friends = friendsCopy.slice();
     friends = friends.filter(item=> item.gender === 'female');
-    ages();
+    findByAge();
     renderAllItemsToPage(friends);
 }
 
 function renderAll() {
     friends = friendsCopy.slice();
-    ages();
+    findByAge();
     renderAllItemsToPage(friends);
 }
 
 form.minMax.addEventListener('change', function(e) {
     checkNumber();
-    ages();
+    findByAge();
 });
 
 function checkNumber() {
@@ -196,8 +195,7 @@ function checkNumber() {
     renderAllItemsToPage(friends);
 }
 
-function ages() {
-    isAge = true;
+function findByAge() {
     friends = friends.filter(item => {
         if (item.dob.age > minNumber.value && item.dob.age <= maxNumber.value) {
             return item;
@@ -239,10 +237,6 @@ function resetPage() {
 function renderAllItemsToPage(arr) {
     if (form.search.search.value.length === 0) {
         isSearch = false;
-    }
-
-    if (form.minMax.minNumber.value <= 10 && form.minMax.maxNumber.value >= 100) {
-        isAge = false;
     }
 
     content.innerHTML = '';
