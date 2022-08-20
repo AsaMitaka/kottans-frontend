@@ -8,7 +8,16 @@ let isSearch = false;
 let isAge = false;
 
 async function getResponse(url) {
-    let response = await fetch(url);
+    let response;
+    try {
+        response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(response.statusText);
+        } 
+    } catch (err) {
+        console.log(err);
+        resetPage();
+    }
     let jsonData = await response.json();
 
     friendsCopy = jsonData.results;
@@ -145,24 +154,27 @@ function checkedGender(event) {
 function renderMale() {
     friends = friendsCopy.slice();
     friends = friends.filter(item=> item.gender === 'male');
-
+    ages();
     renderAllItemsToPage(friends);
 }
 
 function renderFemale() {
     friends = friendsCopy.slice();
     friends = friends.filter(item=> item.gender === 'female');
-
+    ages();
     renderAllItemsToPage(friends);
 }
 
 function renderAll() {
     friends = friendsCopy.slice();
-
+    ages();
     renderAllItemsToPage(friends);
 }
 
-[minNumber, maxNumber].forEach(el => el.addEventListener('change', checkNumber));
+form.minMax.addEventListener('change', function(e) {
+    checkNumber();
+    ages();
+});
 
 function checkNumber() {
     if (minNumber.value < 10) {
@@ -191,6 +203,8 @@ function ages() {
             return item;
         }
     });
+
+    renderAllItemsToPage(friends);
 }
 
 form.search.search.addEventListener('input', searchFunc);
@@ -223,6 +237,14 @@ function resetPage() {
 }
 
 function renderAllItemsToPage(arr) {
+    if (form.search.search.value.length === 0) {
+        isSearch = false;
+    }
+
+    if (form.minMax.minNumber.value <= 10 && form.minMax.maxNumber.value >= 100) {
+        isAge = false;
+    }
+
     content.innerHTML = '';
 
     let acc = '';
@@ -231,15 +253,8 @@ function renderAllItemsToPage(arr) {
     });
     content.innerHTML = acc;
 
-    if (isSearch) {
+    if(isSearch) {
         searchFunc();
-    }
-    if (isAge) {
-        ages();
-    }
-
-    if (form.search.search.value.length === 0) {
-        isSearch = false;
     }
 }
 
