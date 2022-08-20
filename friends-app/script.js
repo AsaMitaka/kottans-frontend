@@ -4,6 +4,8 @@ const content = document.querySelector('.articleBlock');
 
 let friendsCopy = [];
 let friends = [];
+let isSearch = false;
+let isAge = false;
 
 async function getResponse(url) {
     let response = await fetch(url);
@@ -143,20 +145,20 @@ function checkedGender(event) {
 function renderMale() {
     friends = friendsCopy.slice();
     friends = friends.filter(item=> item.gender === 'male');
-    ages();
+
     renderAllItemsToPage(friends);
 }
 
 function renderFemale() {
     friends = friendsCopy.slice();
     friends = friends.filter(item=> item.gender === 'female');
-    ages();
+
     renderAllItemsToPage(friends);
 }
 
 function renderAll() {
     friends = friendsCopy.slice();
-    ages();
+
     renderAllItemsToPage(friends);
 }
 
@@ -178,12 +180,12 @@ function checkNumber() {
         maxNumber.value = 100;
         return;
     } 
-    
-    ages();
+
     renderAllItemsToPage(friends);
 }
 
 function ages() {
+    isAge = true;
     friends = friends.filter(item => {
         if (item.dob.age > minNumber.value && item.dob.age <= maxNumber.value) {
             return item;
@@ -194,6 +196,7 @@ function ages() {
 form.search.search.addEventListener('input', searchFunc);
 
 function searchFunc() {
+    isSearch = true;
     let val = form.search.search.value.toLowerCase();
     if (val && val.length > 0) {
         content.innerHTML = '';
@@ -206,6 +209,7 @@ function searchFunc() {
         });
         content.innerHTML = acc;
     } else {
+        isSearch = false;
         renderAllItemsToPage(friends);
     }
 }
@@ -226,6 +230,17 @@ function renderAllItemsToPage(arr) {
         acc += creatingDivItem(el);
     });
     content.innerHTML = acc;
+
+    if (isSearch) {
+        searchFunc();
+    }
+    if (isAge) {
+        ages();
+    }
+
+    if (form.search.search.value.length === 0) {
+        isSearch = false;
+    }
 }
 
 getResponse(url);
