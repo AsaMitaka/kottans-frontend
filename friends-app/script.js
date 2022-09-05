@@ -6,6 +6,17 @@ const search = document.querySelector('#search');
 let friends = [];
 let friendsCopy = [];
 
+const filterState = {
+    search: null, 
+    gender: null,
+    sort: null,
+    reset() {
+        this.search = null;
+        this.gender = null;
+        this.sort = null;
+    }
+}
+
 const data = (url) => fetch(url)
     .then(handleErrors)
     .then(res => res.json())
@@ -19,17 +30,6 @@ function handleErrors(res) {
       throw Error(res.statusText);
     }
     return res;
-}
-
-const filterState = {
-    search: null, 
-    gender: null,
-    sort: null,
-    reset() {
-        this.search = null;
-        this.gender = null;
-        this.sort = null;
-    }
 }
 
 function filterBy(id, usersToFilter) {
@@ -80,8 +80,6 @@ function filterBySearch(searchValue, usersToSearch) {
 	);
 };
 
-
-
 function creatingProfileCard({picture, name, email, dob, phone, location, gender}) {
     return `
         <div class='content__item'>
@@ -97,7 +95,6 @@ function creatingProfileCard({picture, name, email, dob, phone, location, gender
         </div>
     `;
 }
-
 
 function init() {
     renderAllItemsToPage(friends);
