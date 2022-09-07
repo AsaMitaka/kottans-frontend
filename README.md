@@ -165,6 +165,7 @@
 ### Frogger
 [Code](https://github.com/AsaMitaka/frontend-nanodegree-arcade-game/blob/master/js/app.js) |
 [Demo](https://asamitaka.github.io/frontend-nanodegree-arcade-game) |
+[Approved PR](https://github.com/kottans/frontend-2022-homeworks/pull/92#event-7330458625)
 
 <details>
   <summary>codeWars7kyu</summary>
@@ -175,6 +176,7 @@
 ## OOP exercise 
 [Code](https://github.com/AsaMitaka/a-tiny-JS-world/blob/master/indexClass.js) |
 [Demo](https://asamitaka.github.io/a-tiny-JS-world/index2.html) |
+[Approved PR](https://github.com/kottans/frontend-2022-homeworks/pull/93#event-7273462644)
 
 ## Offline Web Applications
 
