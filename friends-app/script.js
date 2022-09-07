@@ -17,7 +17,7 @@ const filterState = {
     }
 }
 
-const data = (url) => fetch(url)
+const getData = (url) => fetch(url)
     .then(handleErrors)
     .then(res => res.json())
     .then(res =>  {
@@ -32,45 +32,43 @@ function handleErrors(res) {
     return res;
 }
 
-function filterBy(id, usersToFilter) {
+function filterByGender(id, usersToFilter) {
+    let filteredUsers = [...usersToFilter];
     switch(id) {
         case 'male':
-            usersToFilter = usersToFilter.filter(item => item.gender === 'male');
-            break;
         case 'female':
-            usersToFilter = usersToFilter.filter(item => item.gender === 'female');
+            filteredUsers = usersToFilter.filter(item => item.gender === id);
             break;
         case 'all':   
-            usersToFilter = [...friends];
+            filteredUsers = [...friends];
             break;
     }
-    return usersToFilter;
+    return filteredUsers;
 }
 
-function sortAge(a, b) {
+function sortByAge(a, b) {
     return a.dob.age - b.dob.age;
 }
 
-function sortAlph(a, b) {
+function sortByLastName(a, b) {
     return a.name.last !== b.name.last ? a.name.last < b.name.last ? -1 : 1 : 0;
 }
 
 function sortBy(id, usersToSort) {
     switch(id) {
         case 'ageMore':
-            usersToSort = usersToSort.sort((a, b) => sortAge(a, b));
+            usersToSort = usersToSort.sort((a, b) => sortByAge(a, b));
             break;
         case 'ageLess':
-            usersToSort = usersToSort.sort((a, b) => sortAge(b, a));
+            usersToSort = usersToSort.sort((a, b) => sortByAge(b, a));
             break;
         case 'lastAToZ':
-            usersToSort = usersToSort.sort((a, b) => sortAlph(a, b));
+            usersToSort = usersToSort.sort((a, b) => sortByLastName(a, b));
             break;
         case 'lastZToA':
-            usersToSort = usersToSort.sort((a, b) => sortAlph(b, a));
+            usersToSort = usersToSort.sort((a, b) => sortByLastName(b, a));
             break;
     }
-
     return usersToSort;
 }
 
@@ -121,7 +119,6 @@ function init() {
         filterState.reset();
         search.value = '';
         friendsCopy = [...friends];
-
         render();
     })
 }
@@ -130,7 +127,7 @@ function render() {
     friendsCopy = [...friends];
     
     if (filterState.gender) {
-        friendsCopy = filterBy(filterState.gender, friendsCopy);
+        friendsCopy = filterByGender(filterState.gender, friendsCopy);
     }
 
     if (filterState.sort) {
@@ -155,4 +152,4 @@ function renderAllItemsToPage(arr) {
     content.innerHTML = acc;
 }
 
-data(url);
+getData(url);
