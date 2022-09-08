@@ -192,3 +192,4 @@
 
 [Code](https://github.com/AsaMitaka/kottans-frontend/tree/main/friends-app) |
 [Demo](https://asamitaka.github.io/kottans-frontend/friends-app) |
+[Approved PR](https://github.com/kottans/frontend-2022-homeworks/pull/95#event-7348259269)
